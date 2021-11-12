@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"\r\n* {\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: black;\r\n}\r\n.current {\r\n    color: green;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACCA,AAAA,CAAC,CAAC,EACE,WAAW,EAAE,oBAAoB,GACpC;;AAED,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,KAAK,GACf;;AACD,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+}
