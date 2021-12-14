@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		"\r\n* {\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: aliceblue;\r\n}\r\n.current {\r\n    color: green;\r\n}"
+		"// Custom.scss\r\n// Option A: Include all of Bootstrap\r\n\r\n// Include any default variable overrides here (though functions won't be available)\r\n\r\n\r\n\r\n// Then add additional custom code here\r\n/* Color Theme Swatches in Hex */\r\n$Grey-and-Yellow-1-hex: #FFFFFF;\r\n$Grey-and-Yellow-2-hex: #FBF37C;\r\n$Grey-and-Yellow-3-hex: #7F7F7F;\r\n$Grey-and-Yellow-4-hex: #58555A;\r\n$Grey-and-Yellow-5-hex: #000000;\r\n\r\n/* Color Theme Swatches in RGBA */\r\n$Grey-and-Yellow-1-rgba: rgba(255,255,255, 1);\r\n$danger: rgba(251,242,124, 1);\r\n$Grey-and-Yellow-3-rgba: rgba(126,126,126, 1);\r\n$primary: rgba(87,84,89, 1);\r\n$Grey-and-Yellow-5-rgba: rgba(0,0,0, 1);\r\n\r\n/* Color Theme Swatches in HSLA */\r\n$Grey-and-Yellow-1-hsla: hsla(0, 0, 100, 1);\r\n$Grey-and-Yellow-2-hsla: hsla(56, 94, 73, 1);\r\n$Grey-and-Yellow-3-hsla: hsla(0, 0, 49, 1);\r\n$Grey-and-Yellow-4-hsla: hsla(276, 2, 34, 1);\r\n$Grey-and-Yellow-5-hsla: hsla(0, 0, 0, 1);\r\n\r\n$theme-colors: (\r\n  \"primary\": $primary,\r\n  \"danger\": $danger\r\n);\r\n\r\n* {\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: aliceblue;\r\n}\r\n.current {\r\n    color: green;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACCA,AAAA,CAAC,CAAC,EACE,WAAW,EAAE,oBAAoB,GACpC;;AAED,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,SAAS,GACnB;;AACD,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+	"mappings": "ACQA,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC;AAYlC,AAAA,CAAC,CAAC,EACE,WAAW,EAAE,oBAAoB,GACpC;;AAED,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,SAAS,GACnB;;AACD,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
 }
