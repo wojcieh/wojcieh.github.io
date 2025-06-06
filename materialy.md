@@ -10,3 +10,9 @@ permalink: /materialy/
 - [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 - [EasyBCD](https://neosmart.net/EasyBCD/)
 - [Crapfixer](https://github.com/builtbybel/Crapfixer)
+
+
+windows bypass
+```cmd
+start ms-cxh:localonly
+```
