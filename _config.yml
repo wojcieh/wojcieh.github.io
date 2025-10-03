@@ -1,13 +1,33 @@
 title: IT Teacher PL
 email: marcin.wojciechowski@goleniow.edu.pl
-description: >- 
-  Materiały edukacyjne dla uczniów technikum w zawodzie technik programista.
+description:  Kursy INF.02, INF.03, INF.04 i Programowanie Kreatywne.
 baseurl: "" # jeśli używasz GitHub Pages w formacie nazwa_uzytkownika.github.io zostaw puste
 url: "https://wojcieh.github.io" # adres strony
-theme: minima # możesz zmienić na inny motyw
+theme: just-the-docs # możesz zmienić na inny motyw
 
-header_pages:
-  - index.md
-  - materialy.md
-  - projekty.md
+# DEFINICJA KOLEKCJI (Twoje Kursy)
+collections:
+  inf02_kurs:
+    permalink: "/inf02/:path/"
+    output: true
+  inf03_kurs:
+    permalink: "/inf03/:path/"
+    output: true
+  inf04_kurs:
+    permalink: "/inf04/:path/"
+    output: true
+  kreatywne:
+    permalink: "/kreatywne/:path/"
+    output: true
 
+# Konfiguracja bocznika nawigacyjnego (Side Nav)
+just_the_docs:
+  collections:
+    inf02_kurs:
+      name: INF.02
+    inf03_kurs:
+      name: INF.03
+    inf04_kurs:
+      name: INF.04
+    kreatywne:
+      name: Programowanie Kreatywne
