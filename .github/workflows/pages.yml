@@ -48,7 +48,9 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
-
+defaults:
+    run:
+      working-directory: docs
   # Deployment job
   deploy:
     environment:
@@ -60,3 +62,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        - name: Setup Ruby
+  uses: ruby/setup-ruby@v1
+    with:
+      ruby-version: '3.3'
+      bundler-cache: true
+      cache-version: 0
+      working-directory: '${{ github.workspace }}/docs
+  on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "docs/**"
