@@ -3,8 +3,7 @@ email: marcin.wojciechowski@goleniow.edu.pl
 description:  Kursy INF.02, INF.03, INF.04 i Programowanie Kreatywne.
 baseurl: "" # jeśli używasz GitHub Pages w formacie nazwa_uzytkownika.github.io zostaw puste
 url: "https://wojcieh.github.io" # adres strony
-theme: just-the-docs # możesz zmienić na inny motyw
-plugins:
+remote_theme: just-the-docs/just-the-docsplugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
