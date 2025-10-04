@@ -286,7 +286,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
-  jekyll
   jekyll-default-layout
   jekyll-feed
   jekyll-seo-tag
